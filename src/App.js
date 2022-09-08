@@ -2,7 +2,7 @@ import { Authenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 
 import awsExports from './aws-exports';
-// Amplify.configure(awsExports);
+Amplify.configure(awsExports);
 
 export default function App() {
   return (
